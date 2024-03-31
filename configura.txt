@@ -1,0 +1,57 @@
+## Proyecto Real Estate
+
+## Crear dos carpetas dentro de mi carpeta del proyecto
+	- api
+	- client
+
+## Dentro de api crear el archivo app.js
+# Dentro de api desde terminal para crear el package.json y poder utilizar modules:
+	npm init -y
+
+	# Agregar despues de "main"
+	"type":"module",
+
+## Dentro de api desde terminal instalar express
+	npm i express
+
+## Después de agregar el código de exprees en app.js
+# Ejecutar desde consola node
+	node app.js
+	# Entonces prodremos ver el mensaje "server is running" de express
+
+# Para ver los cambios en el servidor podríamos instalar nodemon
+	# pero no lo usaremos pues usaremos console-ninja
+	# Podemos instalar de prueba nodemon
+	npm i nodemon
+	# Podemos levantar el servicio usando también nodemon
+
+	nodemon app.js
+
+	# Para hacer uso de console-nija lo ejecutamos desde terminal
+	
+	console-ninja node --watch app.js
+
+
+## Instalar encriptador
+	npm i bcrypt
+
+## Instalar prisma
+	npm i prisma
+
+## Instalar prisma para MongoDB, aunque se puede instalar cualquier DB: Mongodb, mysql, sqlite
+	npx prisma init --datasource-provider mongodb
+
+# URL YOUTUBE: https://www.youtube.com/watch?v=eJ3YysWaP_A
+	TIME = aprox Minuto: 28; 
+	username: optimussky05
+	pass: pE2UDWvy1FtPhUk8, Optimus05
+
+## Connet to Cluster0
+	mongodb+srv://Optimussky:<password>@cluster0.u59zqof.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+## Instalar desde terminal prisma/client
+
+	npm i @prisma/client
+## NOTA: Después de crear cualquier cambio en prisma.schema ejecutar
+	npx prisma db push
+
